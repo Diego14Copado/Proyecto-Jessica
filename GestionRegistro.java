@@ -132,6 +132,8 @@ public class GestionRegistro {
             // Guardar datos de Ayuda Despensa en la hoja de Excel
             guardarDatos(sheetDespensa, despensa );
 
+            
+            //ESTE METODO PRESENTA ERROR AL EJECTUR LA VALIDACION DE VARIABLES
             // Ayuda Cursos
             AyudaVivienda ayudaCursos = new AyudaVivienda();
             ayudaCursos.abrirConvocatoria();
@@ -139,6 +141,9 @@ public class GestionRegistro {
             ayudaCursos.registrarInscrito("Decoración con Globos", persona2);
             ayudaCursos.cerrarConvocatoria();
 
+
+
+            
             // Guardar datos de Ayuda Cursos en la hoja de Excel
             guardarDatos(sheetCursos, ayudaCursos);
 
